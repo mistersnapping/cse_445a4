@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ERROR 1: Root should be "Hotels" -->
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+  <Hotel Rating="4.2">
+    <!-- ERROR 5: Duplicate "Name" -->
+    <Name>Westin</Name>
+    <Name>Westin Duplicate</Name>
+    <!-- ERROR 3: Missing "Phone" -->
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E. 7th St</Street>
+      <!-- ERROR 4: Unclosed "Address" -->
+    </Address>
+  </Hotel>
+  <Hotel>
+    <!-- ERROR 2: Missing "NearestAirport" -->
+    <Name>Hilton Phoenix</Name>
+    <Phone>602-222-1111</Phone>
+    <Address>
+      <Number>100</Number>
+      <Street>N. 1st St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+</Hotel>
