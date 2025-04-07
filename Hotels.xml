@@ -1,28 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="Hotels.xsd">
-  <Hotel Rating="4.2">
+<Hotels>
+  <Hotel>
     <Name>Westin</Name>
-    <Phone>800-937-8461</Phone>
     <Phone>480-968-8885</Phone>
-    <Address NearstAirport="Sky Harbor">
+    <Phone>800-937-8461</Phone>
+    <Address>
       <Number>11</Number>
-      <Street>E. 7th St</Street>
+      <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
+      <_NearestAirport>Sky Habor</_NearestAirport>
     </Address>
+    <_Rating>4.2</_Rating>
   </Hotel>
-  <!-- Add 9+ more hotels below -->
   <Hotel>
-    <Name>Hilton Phoenix</Name>
-    <Phone>602-222-1111</Phone>
-    <Address NearstAirport="Phoenix International">
-      <Number>100</Number>
-      <Street>N. 1st St</Street>
+    <Name>Marriott</Name>
+    <Phone>480-123-4567</Phone>
+    <Phone>800-123-4567</Phone>
+    <Address>
+      <Number>22</Number>
+      <Street>W 5th St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85004</Zip>
+      <_NearestAirport>Sky Habor</_NearestAirport>
     </Address>
+    <!-- No _Rating element for this hotel -->
   </Hotel>
 </Hotels>
