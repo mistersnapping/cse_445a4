@@ -26,7 +26,6 @@
       <Zip>85004</Zip>
       <_NearestAirport>Sky Habor</_NearestAirport>
     </Address>
-    <!-- No _Rating element for this hotel -->
   </Hotel>
   <Hotel>
     <Name>Hilton</Name>
@@ -68,7 +67,6 @@
       <Zip>85281</Zip>
       <_NearestAirport>Sky Habor</_NearestAirport>
     </Address>
-    <!-- No _Rating element for this hotel -->
   </Hotel>
 </Hotels>
 
