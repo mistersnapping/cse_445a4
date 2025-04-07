@@ -10,7 +10,7 @@
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <_NearstAirport>Sky Habor</_NearstAirport>
+      <_NearestAirport>Sky Habor</_NearestAirport>
     </Address>
     <_Rating>4.2</_Rating>
   </Hotel>
@@ -24,8 +24,51 @@
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85004</Zip>
-      <_NearstAirport>Sky Habor</_NearstAirport>
+      <_NearestAirport>Sky Habor</_NearestAirport>
+    </Address>
+    <!-- No _Rating element for this hotel -->
+  </Hotel>
+  <Hotel>
+    <Name>Hilton</Name>
+    <Phone>480-555-1234</Phone>
+    <Phone>800-555-1234</Phone>
+    <Address>
+      <Number>33</Number>
+      <Street>N Central Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85012</Zip>
+      <_NearestAirport>Sky Habor</_NearestAirport>
+    </Address>
+    <_Rating>4.5</_Rating>
+  </Hotel>
+  <Hotel>
+    <Name>Hyatt</Name>
+    <Phone>480-777-8888</Phone>
+    <Phone>800-777-8888</Phone>
+    <Address>
+      <Number>44</Number>
+      <Street>S Mill Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85282</Zip>
+      <_NearestAirport>Sky Habor</_NearestAirport>
+    </Address>
+    <_Rating>4.0</_Rating>
+  </Hotel>
+  <Hotel>
+    <Name>Sheraton</Name>
+    <Phone>480-999-0000</Phone>
+    <Phone>800-999-0000</Phone>
+    <Address>
+      <Number>55</Number>
+      <Street>E University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <_NearestAirport>Sky Habor</_NearestAirport>
     </Address>
     <!-- No _Rating element for this hotel -->
   </Hotel>
 </Hotels>
+
